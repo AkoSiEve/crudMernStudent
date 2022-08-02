@@ -1,0 +1,23 @@
+# GET http://localhost:8000/api/student
+
+# POST http://localhost:8000/api/student 
+# Content-Type: application/json
+
+# { 
+#     "firstname":"delete one", 
+#     "lastname":"me", 
+#     "age":22
+# }
+
+# GET http://localhost:8000/api/student/62e8f27c33d07701879ae903
+
+# DELETE http://localhost:8000/api/student/62e8f27c33d07701879ae903
+
+# PATCH http://localhost:8000/api/student/62e8f27c33d07701879ae903 
+# Content-Type: application/json
+
+# { 
+# "firstname":"updated na", 
+# "lastname":"me", 
+# "age":22 
+# }
